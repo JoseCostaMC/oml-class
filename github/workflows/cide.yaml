@@ -28,4 +28,4 @@ jobs:
           environment-file: conda.yaml  
 
       - name: Tests
-        run: pytest
+        run: conda run --no-capture-output --name OML pytest
