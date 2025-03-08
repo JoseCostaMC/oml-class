@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1741434400581
+current_stage: None
+description: ''
+last_updated_timestamp: 1741434400581
+name: logistic_reg_2
+run_id: f89ea6a2a4d345849414c771e020772a
+run_link: ''
+source: mlflow-artifacts:/224298206352214135/f89ea6a2a4d345849414c771e020772a/artifacts/lr_pipeline
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/224298206352214135/f89ea6a2a4d345849414c771e020772a/artifacts/lr_pipeline
+user_id: null
+version: 1
