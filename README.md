@@ -137,3 +137,5 @@ Por padrão, o Windows bloqueia a execução de scripts não assinados no PowerS
 Set-ExecutionPolicy Unrestricted -Scope LocalMachine -Force
 ```
 
+Teste de alteracao
+
