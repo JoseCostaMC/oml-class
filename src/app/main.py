@@ -28,7 +28,7 @@ class Request(BaseModel):
         Age (int): Age of the individual.
     """
     Pregnancies: conint(ge=0) = 0
-    Glucose: int = 118
+    Glucose: int = 115
     BloodPressure: int = 84
     SkinThickness: int = 47
     Insulin: int = 230
