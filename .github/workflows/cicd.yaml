@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout code
-        run: actions/checkout@v4
+        uses: actions/checkout@v4
 
       - name: install docker
-        run: docker/setup-buildx-action@v3
+        uses: docker/setup-buildx-action@v3
 
       - name: Tracking server + Service
         run: docker compose up -d --build
