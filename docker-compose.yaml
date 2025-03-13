@@ -14,6 +14,7 @@ services:
       dockerfile: Dockerfile.Service
       tags:
         - diabetes-prediction-service:latest
+        - ghcr.io/josecostamc/diabetes-prediction-service
     image: diabetes-prediction-service
     container_name: diabetes-prediction-service
     ports:
